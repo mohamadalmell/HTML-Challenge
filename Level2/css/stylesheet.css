@@ -1,0 +1,52 @@
+body {
+    width: 30%;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home {
+    margin: auto;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    margin: 1rem;
+    color: rgb(15, 50, 204);
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    left: -3%;
+    text-align: right;
+    top: 3%;
+}
+
+ol {
+    margin: 5%;
+    margin-top: 10%;
+}
+
+div {
+    text-align: justify;
+}
+
+img {
+    width: 30vw;
+    position: relative;
+    margin: 2% 0;
+}
+
+figure {
+    margin: 0;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
