@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(255, 252, 249);
+    background-color: rgb(255, 251, 247);
 }
 
 * {
@@ -34,7 +34,7 @@ header h1 {
     position: absolute;
     z-index: 2;
     color: #fff;
-    font-size: 5em;
+    font-size: 6em;
     margin: 50px 30px;
     font-weight: 900;
 }
@@ -43,8 +43,8 @@ header small {
     position: absolute;
     z-index: 2;
     color: #fff;
-    font-size: 1em;
-    margin: 140px 30px;
+    font-size: 1.3em;
+    margin: 160px 30px;
     font-weight: 900;
 }
 
@@ -70,41 +70,71 @@ nav a:hover {
     background-color: #3f4549;
 }
 
-section aside ul {
+aside ul {
     margin-top: 100px;
 }
 
-section aside ul li {
+aside ul li {
     margin: 10px;
 }
 
-section aside ul li a {
+aside ul li a {
     text-decoration: none;
     color: #000;
 }
 
-section {
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-end;
 }
 
-section aside {
-    width: 30%;
+aside {
+    width: 25%;
 }
 
-section main {
+aside div {
+    margin: 10% 0;
+    width: 80%;
+}
+
+aside div h3 {
+    margin: 2% 0;
+    font-size: 1rem;
+}
+
+aside div p {
+    text-align: justify;
+    margin-bottom: 8%;
+}
+
+aside input {
+    margin: 5% 0;
+    height: 30px;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+article {
     width: 70%;
     margin-top: 100px;
+    margin-bottom: 30px;
     text-align: justify;
 }
 
-section main h2 {
+article h2 {
     margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #000;
 }
 
-#game-modes main {
+article h3 {
+    font-size: 1.3rem;
+}
+
+#game-modes {
     margin-top: auto;
 }
 
@@ -121,22 +151,34 @@ section main h2 {
     margin: 0.5em 0;
 }
 
+#volta {
+    border-right: 1px solid #000;
+    padding-right: 50%;
+}
+
+#volta p {
+    width: 20.9vw;
+}
+
 footer {
-    margin: auto;
+    margin: 3% auto;
     text-align: center;
 }
 
 footer form {
     margin: auto;
+    border-spacing: 30px;
 }
 
 footer form input,
 footer form textarea {
     margin: 1.5%;
     line-height: 2;
+    border: 2px solid #000;
+    border-radius: 5px;
 }
 
-form button {
+button {
     background-color: #596269;
     border: none;
     color: white;
@@ -149,7 +191,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+button:hover {
     background-color: #3f4549;
 }
 
@@ -157,4 +199,10 @@ textarea::placeholder,
 input::placeholder {
     padding-left: 2%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p {
+    border-top: 1px solid #000;
+    margin-top: 50px;
+    padding-top: 15px;
 }
